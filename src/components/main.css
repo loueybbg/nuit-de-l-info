@@ -1,0 +1,483 @@
+/* Footer css */
+footer {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  width: 75%;
+
+  justify-content: space-between;
+}
+
+.rigthContent {
+  display: flex;
+
+  width: 30%;
+  justify-content: space-between;
+}
+
+.rigthContent a {
+  color: rgba(0, 0, 0, 0.315);
+}
+
+
+/* header css */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wraper {
+  width: 85%;
+  height: 5.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo h1 {
+  color: #92d362;
+  font-size: 2rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 45%;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+li {
+  font-size: .8rem;
+}
+
+button {
+  border: none;
+  height: 40px;
+  width: 90px;
+  border-radius: 5px;
+  color: #92d362;
+  font-size: .8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.6s;
+}
+
+a:hover {
+  color: rgb(3, 3, 82);
+  border-bottom: 1px solid rgb(3, 3, 82);
+}
+
+.modal{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 14rem;
+  text-align: center;
+}
+
+.modal input {
+  height: 2rem;
+  width: 90%;
+}
+
+.modalBtn {
+  width: 80%;
+  background-color: #92d362;
+  color: white;
+  cursor: pointer;
+  transition: all ease .8s;
+}
+
+.modalBtn:hover {
+  background-color: #639143;
+  
+}
+
+
+/*bestServices*/
+.services {
+  width: 100%;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+}
+
+.servicesWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rigthServices {
+  width: 50%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.rigthServices h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: rgb(3, 3, 82);
+  width: 60%;
+}
+
+.rigthServices p {
+  color: rgba(0, 0, 0, 0.37);
+  width: 60%;
+  
+  margin-bottom: 2rem;
+}
+
+.rigthServices button {
+    background-color: #92d362;
+    color: white;
+    width: 20%;
+    box-shadow: 1px 8px 10px rgba(0, 0, 0, 0.205);
+}
+
+/*blog*/
+.blog {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  height: 35rem;
+  margin-bottom: 3rem;
+}
+
+.topInfo {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.topInfo h2 {
+  font-size: 2.5rem;
+  color: rgb(3, 3, 82);
+  margin: 1rem 0;
+}
+
+.topInfo p {
+  color: rgba(0, 0, 0, 0.445);
+  margin-bottom: 2rem;
+  text-align: center;
+  width: 40%;
+}
+
+.postsWrapper {
+  display: flex;
+  width: 100%;    
+}
+
+.postBtn {
+  display: flex;
+  align-items: center;
+  transition: all ease 1s;
+  
+}
+
+.postBtn button {
+  background-color: #92d362;
+  color: white;
+  font-size: 1.5rem;
+  animation: pulse 3s infinite;
+}
+
+.postBtn button:hover {
+  cursor: pointer;
+}
+
+
+@keyframes pulse {
+  0% {transform: scale(1)}
+  50% {transform: scale(1.1)}
+  100% {transform: scale(1)}
+}
+
+/*postBlog*/
+.PostBlog {
+  display: flex;
+  flex-flow: column wrap;
+  width: 20rem;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.466);
+  margin: 0 1.5rem;
+  transition: all 0.3s;
+  
+}
+
+.PostBlog:hover {
+  transform: scale(1.05)
+}
+
+.middleBlog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 6rem;
+}
+
+.middleBlog h2 {
+color: rgb(3, 3, 82);
+line-height: 2rem;
+
+width: 85%;
+
+}
+
+.botBlog {
+  display: flex;
+  align-items: center;
+  justify-content: center;    
+}
+
+.botBlog img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.botProfile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 85%;
+  height: 4rem;
+}
+
+.botProfile p {
+  margin: 1rem;
+  color: rgba(0, 0, 0, 0.37);
+}
+
+
+
+
+/* contact css */
+.contatWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.leftContact {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  
+  width: 100%;
+  
+}
+
+.infosContact {
+  width: 70%;
+  height: 20rem;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.infosContact h2 {
+  font-size: 2.5rem;
+  width: 90%;
+  color: rgb(3, 3, 82);
+  margin-bottom: 2rem;
+}
+
+.btnContact {
+  display: flex;
+}
+
+.btnContact input {
+  width: 20rem;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.377);
+  text-indent: 1rem;
+  margin-right: 1rem;
+}
+
+.btnContact button {
+background-color: #92d362;
+color: white;
+font-size: .9rem;
+font-weight: 100;  
+box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.233);
+}
+
+
+/* hero css */
+section {
+  display: flex;
+  /* background-color: rgba(255, 255, 0, 0.89);  */
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.contentWrapper {
+  width: 85%;
+  height: 655px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.leftContent {
+  width: 35%;
+  height: 45%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.leftContent input {
+  border:.6px solid rgba(0, 0, 0, 0.637);
+  height: 50px;
+  width: 85%;
+  border-radius: 10px;
+  text-indent: 10px;
+  color: #92d362;
+}
+
+.handle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.leftContent button {
+  width: 50px;
+  background-color: #92d362;
+  height: 50px;
+  border-radius: 10px;
+  
+}
+
+.leftContent h2 {
+  color: rgb(3, 3, 82);
+  font-size: 3rem;
+  line-height: 1.5em;
+  width: 70%;
+}
+
+
+.rigthContent img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+/* ourBestRecipe */
+.recipes {
+  width: 85%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.infos {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.infos h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: rgb(3, 3, 82);
+}
+
+.infos p {
+    color: rgba(0, 0, 0, 0.37);
+    width: 60%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.recipe-posts {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 35rem;
+}
+
+
+/* post css */
+.postWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 32rem;
+  height: 13.5rem;
+  border-radius: 10px;
+  box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.425);
+  overflow: hidden;
+  transition: all ease 0.3s;
+}
+
+.postWrapper:hover {
+  transform: scale(1.01);
+}
+
+.rigthInfo {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  width: 43%;
+}
+
+.rigthInfo h2 {
+  color: rgb(3, 3, 82);
+  width: 100%;
+  height: 60%;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.rigthInfo button {
+  background-color: #92d362;
+  color: white;
+  width: 7rem;
+}
+
